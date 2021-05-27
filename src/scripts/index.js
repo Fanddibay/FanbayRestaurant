@@ -32,5 +32,6 @@ buttonDarkTheme.addEventListener("click", (event) => {
   drawer.classList.toggle("explore__menu");
   header.classList.toggle("explore__menu");
   body.classList.toggle("menuShop__dark");
+
   event.stopPropagation();
 });
